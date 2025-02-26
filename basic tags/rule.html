@@ -1,6 +1,86 @@
-<p>hello therehello world Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though,
-    the unity and coherence of ideas among sentences is what constitutes a paragraph</p> 
-<hr/>
-<p>hello manwhere are you Corporate Social Responsibility (CSR) can generate a positive reputation for a company leading to possibly more sales and growth. According to Jones et al (2019), a corporation that invests in the environmental and ethical approaches of CSR will demonstrate to the public and the media that they are a responsible company. Watson (2018) provides evidence that this improves consumer sales as customers tend to support ethical green business practice thus improving profitability and encouraging growth. For example, a yoghurt company called Yeo Valley has been investing in making its products organic, creating fully recyclable packaging and reducing its CO2 output. As a result, profits have doubled within the last two years providing the company with a range of opportunities to expand (Peterson, 2019). Overall, the evidence seems
-    to suggest that investing in CSR can improve brand image and productivityp
- </p>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    /* The grid: Four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+    }
+
+    /* Style the images inside the grid */
+    .column img {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
+    .column img:hover {
+      opacity: 1;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* The expanding image container */
+    .container {
+      position: relative;
+      display: none;
+    }
+
+    /* Expanding image text */
+    #imgtext {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: white;
+      font-size: 20px;
+    }
+
+    /* Closable button inside the expanded image */
+    .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Image Gallery</h2>
+
+  <!-- The four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="https://source.unsplash.com/random/400x200" alt="Image 1" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://source.unsplash.com/random/400x200" alt="Image 2" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://source.unsplash.com/random/400x200" alt="Image 3" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://source.unsplash.com/random/400x200" alt="Image 4" style="width:100%">
+    </div>
+  </div>
+
+</body>
+</html>
