@@ -10,7 +10,7 @@
     --bg: hsl(var(--hue),10%,85%);
     --fg: hsl(var(--hue),10%,15%);
     --red: hsl(344,75%,40%);
-    --white: hsl(0,0%,100%);
+    --white: hsl(0, 15%, 54%);
     --blue: hsl(213,81%,21%);
     --trans-dur: 0.3s;
     font-size: clamp(1rem,0.95rem + 0.25vw,1.25rem);
